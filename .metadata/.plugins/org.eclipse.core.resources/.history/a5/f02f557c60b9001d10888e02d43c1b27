@@ -1,0 +1,28 @@
+package chapter3.D_Constructor;
+
+
+class Circle {
+	
+	
+	double raidus;
+	double diameter;
+	double circumference;
+	double area;
+	
+	
+}
+
+
+
+public class Constructor {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Circle circle1 = new Circle();
+		
+	}
+
+}

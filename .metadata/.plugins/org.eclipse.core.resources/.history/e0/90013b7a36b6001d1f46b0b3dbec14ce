@@ -1,0 +1,45 @@
+package chapter2.C_For;
+
+public class For {
+
+	public static void main(String[] args) {
+		
+
+		
+		
+		
+		
+		int sum =0;
+		for (int i = 0; i<10 ; i++) {
+			sum += i;
+		}
+		System.out.println(sum);
+		
+		
+		int[] number = new int[10];
+		
+		for (int i = 0; i < number.length; i++) {
+		  number[i] = i + 1;
+		}
+		for (int i : number) {
+		  System.out.println(i);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

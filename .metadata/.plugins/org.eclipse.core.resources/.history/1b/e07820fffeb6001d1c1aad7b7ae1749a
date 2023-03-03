@@ -1,0 +1,21 @@
+package example.SighUp;
+
+public class SighUp {
+		
+	
+	//회원가입 프로세스 구현
+	// 필수 입력값이 모두 입력되었는가?
+	
+	// 아이디 중복확인
+	
+	/*
+	 * 정보를 모두 입력?
+	 * 
+	 */
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

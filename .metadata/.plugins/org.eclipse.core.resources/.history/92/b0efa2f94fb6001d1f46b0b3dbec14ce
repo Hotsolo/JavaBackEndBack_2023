@@ -1,0 +1,60 @@
+package example.Sighin;
+
+import java.util.Scanner;
+
+//로그인 프로세스 구현
+
+
+public class Signin {
+
+	
+	// 입력
+	// 아이디와 비밀번호
+	
+	
+	public static void main(String[] args) {
+		
+		//사용자로 부터 
+		
+		
+		//사용자가 아이디와 패스워드를 제대로 입력했는지 확인
+		while (true) {
+			
+		
+			Scanner scanner = new Scanner(System.in);
+			System.out.println("아이디와 비밀번호를 입력하세요.");
+			String userId = scanner.nextLine();
+			String userPassword = scanner.nextLine();
+			//String.isEmpty() : 비었으면 true , 아니면 false
+			
+			
+			if (userId.isEmpty() || userPassword.isEmpty()) {
+				System.out.println("아이디 또는 비밀번호를 모두 입력해주십시오.");
+				System.out.println();
+				continue;
+			}
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	//결과
+	//성공과 실패 (모두 입렧하지 않았을때. 정보가 일치하지 않을 때)
+	
+	
+	
+}

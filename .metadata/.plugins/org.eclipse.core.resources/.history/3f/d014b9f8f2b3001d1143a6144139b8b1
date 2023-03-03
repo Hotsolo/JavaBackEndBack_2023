@@ -1,0 +1,42 @@
+package chapter2.B_Swich;
+
+//비교핧 변수를 case 값과 비교하여 같은 case를 찾아 해당 case 구문부터 끝까지 실행
+//break 문으로 해당 switch를 종료
+// default 조건이 일치하는 값이 없을 경우 실행
+public class Switch {
+
+	public static void main(String[] args) {
+		
+//		// switch statement
+//		switch (비교할 대상) {
+//		  case 값1:
+//		    // 조건이 값1과 같을 경우 실행
+//		  case 값2:
+//		    // 조건이 값2와 같을 경우 실행  
+//		    break;
+//		  default:
+//		    // 조건이 일치하는 값이 없을 경우 실행
+		
+		
+		int switchNumber = 0;
+		
+		
+		switch (switchNumber) {
+		case 8:
+			System.out.println("이숫자는 8이다");
+		case 0:
+			System.out.println("0");
+			break
+		case 3:	
+			System.out.println("3");
+		}
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

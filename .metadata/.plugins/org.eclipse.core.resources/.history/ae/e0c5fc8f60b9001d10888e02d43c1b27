@@ -1,0 +1,41 @@
+package chapter3.D_Constructor;
+
+
+class Circle {
+	
+	
+	double raidus;
+	double diameter;
+	double circumference;
+	double area;
+	
+	
+	
+	
+}
+
+
+
+public class Constructor {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Circle circle1 = new Circle();
+		//원래라면 이렇게 초기화 해야함
+		circle1.raidus = 10;
+		circle1.diameter = 20;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

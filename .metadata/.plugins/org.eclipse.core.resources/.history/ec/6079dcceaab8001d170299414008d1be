@@ -1,0 +1,33 @@
+package chapter3.B_ValueableMethod;
+
+
+
+class Triangle {
+	double underSide;
+	double height;
+	double diagonal;
+	
+	double area;
+	
+	
+}
+
+
+
+
+
+
+public class Method2 {
+
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
